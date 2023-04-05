@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import Clock from '../components/Clock.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Clock />
   </main>
 </template>
