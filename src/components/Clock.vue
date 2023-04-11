@@ -66,8 +66,9 @@ $radius: calc( ($width - $numSize) / 2);
 
 .clock {
   margin: 40px auto;
-  background-color: #222;
+  background-color: #0f1115;
   border-radius: 24%;
+  // box-shadow: 1px 1px 10px 1px orange;
   container-type: inline-size;
   display: grid;
   place-content: center;
@@ -88,8 +89,9 @@ $radius: calc( ($width - $numSize) / 2);
       position: absolute;
       height: $numSize;
       width: $numSize;
-      font-weight: 700;
+      font-weight: 900;
       font-size: 20px;
+      color: #0f1115;
     }
 
     time:nth-child(1) {
@@ -155,7 +157,7 @@ $radius: calc( ($width - $numSize) / 2);
 
 
       &::before {
-        background-color: #fff;
+        background-color: #eee;
         border: 1cqi solid #333;
         border-radius: 50%;
         content: "";
